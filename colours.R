@@ -1,0 +1,7 @@
+colour_Q591R = "#FF69B4"
+colour_D740N =  "#ff8856"
+colour_E613K = "green"
+colour_I13V = "forestgreen"
+colour_E677G = "#6af2f0"
+colour_K497R = "#91bffa"
+colour_M631L = "#ffa0a0"
