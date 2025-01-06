@@ -27,7 +27,7 @@ run_mafft <- function(input_fasta, output_fasta) {
   })
 }
 
-# Example usage
+
 raw_folder_path <- paste0("/Users/capelastegui.f/git/bovine_tree_figure/Data/01_raw_data/",tdate,"/")
 output_folder_path <- paste0("/Users/capelastegui.f/git/bovine_tree_figure/Data/02_aligned_data/", tdate)
 
@@ -44,6 +44,6 @@ for (input_fasta in file_list) {
   base_name <- file_path_sans_ext(basename(input_fasta))  # Get filename without extension
   output_fasta <- file.path(output_folder_path, paste0(base_name, "_aligned.fasta"))
   
-  # Run your alignment function
+  # Run alignment function
   run_mafft(input_fasta, output_fasta)
 }
